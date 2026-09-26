@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# vite build output (Vercel rebuilds this from source)
+dist/
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/
+.idea/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# vitest / coverage
+coverage/
