@@ -1,20 +1,21 @@
 {
-  "name": "parley",
+  "name": "encounter",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "coverage": "vitest run --coverage",
-    "typecheck": "tsc --noEmit"
+    "sim": "tsx scripts/sim.ts",
+    "trace": "tsx scripts/trace.ts"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^2.1.9",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.8",
-    "vitest": "^2.1.1"
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.2"
   }
 }
